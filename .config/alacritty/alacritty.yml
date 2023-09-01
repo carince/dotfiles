@@ -30,35 +30,31 @@ font:
   size: 9
 draw_bold_text_with_bright_colors: true
 
-# (Github Dark High Contrast) Colors for Alacritty
+# Colors (Gruvbox Material Medium Dark)
 colors:
+  # Default colors
   primary:
-    background: '0x0a0c10'
-    foreground: '0xf0f3f6'
-
-  # Cursor colors
-  cursor:
-    text: '0x0a0c10'
-    cursor: '0xf0f3f6'
+    background: '#1d2021'
+    foreground: '#d4be98'
 
   # Normal colors
   normal:
-    black: '0x7a828e'
-    red: '0xff9492'
-    green: '0x26cd4d'
-    yellow: '0xf0b72f'
-    blue: '0x71b7ff'
-    magenta: '0xcb9eff'
-    cyan: '0x39c5cf'
-    white: '0xd9dee3'
+    black:   '#3c3836'
+    red:     '#ea6962'
+    green:   '#a9b665'
+    yellow:  '#d8a657'
+    blue:    '#7daea3'
+    magenta: '#d3869b'
+    cyan:    '#89b482'
+    white:   '#d4be98'
 
-  # Bright colors
+  # Bright colors (same as normal colors)
   bright:
-    black: '0x9ea7b3'
-    red: '0xffb1af'
-    green: '0x4ae168'
-    yellow: '0xf7c843'
-    blue: '0x91cbff'
-    magenta: '0xcb9eff'
-    cyan: '0x39c5cf'
-    white: '0xd9dee3'
+    black:   '#3c3836'
+    red:     '#ea6962'
+    green:   '#a9b665'
+    yellow:  '#d8a657'
+    blue:    '#7daea3'
+    magenta: '#d3869b'
+    cyan:    '#89b482'
+    white:   '#d4be98'

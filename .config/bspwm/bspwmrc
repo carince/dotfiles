@@ -1,5 +1,4 @@
 #! /bin/sh
-
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc wm -O HDMI-0 DVI-I-0
@@ -9,9 +8,14 @@ bspc monitor DVI-I-0 -d 6 7 8 9 0
 bspc config border_width         2
 bspc config window_gap          10
 
-bspc config split_ratio          0.52
+bspc config split_ratio          0.50
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
+
+bspc rule -a Chrome desktop='^1'
+bspc rule -a Code desktop='^2'
+bspc rule -a Discord desktop='^6'
+bspc rule -a Spotify desktop='^7'
 
 # Polybar
 sh $HOME/.config/polybar/launch.sh &
