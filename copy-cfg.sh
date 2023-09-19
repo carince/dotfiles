@@ -1,6 +1,6 @@
 #! /bin/bash
 
-declare -a apps=("alacritty" "bspwm" "edid" "picom" "polybar" "sxhkd" "rofi")
+declare -a apps=("alacritty" "bspwm" "edid" "picom" "polybar" "sxhkd" "rofi" "lf" "Vencord" "scripts")
 
 for app in "${apps[@]}"
 do

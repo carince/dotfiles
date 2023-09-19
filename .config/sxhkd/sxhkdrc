@@ -10,6 +10,10 @@ super + Return
 super + {@space,d}
 	rofi -show drun
 
+# emoji menu
+super + shift + e
+	rofi -show emoji -modi emoji
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -37,6 +41,14 @@ super + y
 # swap the current node and the biggest window
 super + g
 	bspc node -s biggest.window
+
+# switch workspaces (yes)
+super + {1-9,0}
+	bspc desktop -f {1-9,0}
+
+# move nodes to workspace
+super + shift + {1-9,0}
+	bspc node focused -d {1-9,0}
 
 #
 # state/flags
